@@ -60,5 +60,6 @@ gpu optimization
 
    1000이하로는 내려가지 않음.
 
-   ![image](https://github.com/jkh1447/energy-saving-gpu-optimization-for-deep-learning/assets/4592459/d1614c82-0321-4d23-bae3-d8fa7e05be9c)
+   ![image](https://github.com/jkh1447/energy-saving-gpu-optimization-for-deep-learning/assets/4592459/afa895a9-cfaf-4a88-973e-9869c1203450)
+
 
