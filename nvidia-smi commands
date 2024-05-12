@@ -1,0 +1,5 @@
+nvidia smi commands
+
+nvidia-smi -lgc [clock]
+
+nvidia-smi -rgc
