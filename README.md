@@ -63,3 +63,19 @@ gpu optimization
    ![image](https://github.com/jkh1447/energy-saving-gpu-optimization-for-deep-learning/assets/4592459/afa895a9-cfaf-4a88-973e-9869c1203450)
 
 
+2. vggnet, cifar-10 결과 :
+
+   default :
+
+   clock 1900 고정 :
+
+   ![image](https://github.com/jkh1447/energy-saving-gpu-optimization-for-deep-learning/assets/4592459/c5b7bad2-3f03-46a1-9626-8bb84510dd97)
+
+   clock 1800 고정 :
+
+   ![image](https://github.com/jkh1447/energy-saving-gpu-optimization-for-deep-learning/assets/4592459/fd95170a-578c-4b8c-8916-e8f2f02d54ae)
+
+   clock 1700 고정 :
+
+   
+   
