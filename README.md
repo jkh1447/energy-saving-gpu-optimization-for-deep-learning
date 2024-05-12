@@ -88,4 +88,9 @@ gpu optimization
    ![image](https://github.com/jkh1447/energy-saving-gpu-optimization-for-deep-learning/assets/4592459/583cd57c-6f7e-45fa-b763-eb69a90b25ec)
 
    clock 1400 고정 :
+
+   ![image](https://github.com/jkh1447/energy-saving-gpu-optimization-for-deep-learning/assets/4592459/27ea5294-4cdf-4ddd-a438-dd3faaf5dcb0)
+
+   clock 1300 고정 :
+
    
