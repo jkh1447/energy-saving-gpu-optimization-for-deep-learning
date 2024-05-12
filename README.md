@@ -103,4 +103,5 @@ gpu optimization
 
    ![image](https://github.com/jkh1447/energy-saving-gpu-optimization-for-deep-learning/assets/4592459/e9691ac4-f4eb-4a03-b131-eef7e150729c)
 
-   
+   ![image](https://github.com/jkh1447/energy-saving-gpu-optimization-for-deep-learning/assets/4592459/11d870c3-2909-4cc4-8d39-8bd04705e765)
+
