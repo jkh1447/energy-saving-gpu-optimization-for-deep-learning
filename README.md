@@ -1,6 +1,7 @@
 gpu optimization
 
 ---
+gtx 1660 super
 
 1. cifar10, resnet18 결과 :
 
@@ -60,7 +61,8 @@ gpu optimization
 
    1000이하로는 내려가지 않음.
 
-   ![image](https://github.com/jkh1447/energy-saving-gpu-optimization-for-deep-learning/assets/4592459/afa895a9-cfaf-4a88-973e-9869c1203450)
+   ![Figure_1](https://github.com/jkh1447/energy-saving-gpu-optimization-for-deep-learning/assets/4592459/d3032dff-8b47-4671-b39f-d278d9efc8f6)
+
 
 
 2. vggnet, cifar-10 결과 :
@@ -103,5 +105,4 @@ gpu optimization
 
    ![image](https://github.com/jkh1447/energy-saving-gpu-optimization-for-deep-learning/assets/4592459/e9691ac4-f4eb-4a03-b131-eef7e150729c)
 
-   ![image](https://github.com/jkh1447/energy-saving-gpu-optimization-for-deep-learning/assets/4592459/11d870c3-2909-4cc4-8d39-8bd04705e765)
-
+   ![image](https://github.com/jkh1447/energy-saving-gpu-optimization-for-deep-learning/assets/4592459/0481d2fb-060e-4625-96b3-7a31136c1d0e)
