@@ -106,3 +106,24 @@ gtx 1660 super
    ![image](https://github.com/jkh1447/energy-saving-gpu-optimization-for-deep-learning/assets/4592459/e9691ac4-f4eb-4a03-b131-eef7e150729c)
 
    ![image](https://github.com/jkh1447/energy-saving-gpu-optimization-for-deep-learning/assets/4592459/0481d2fb-060e-4625-96b3-7a31136c1d0e)
+
+
+
+   -------------------------------------
+
+   1. 파워 모델링
+  
+      ![image](https://github.com/jkh1447/energy-saving-gpu-optimization-for-deep-learning/assets/4592459/ea484677-0c62-4296-a189-b9e1e3a313d6)
+
+      Pf(W, 와트) : 특정 주파수에서의 파워소비량
+      α, β, γ, C : 회귀로 구한다.
+
+      최소 7~10개정도의 딥러닝 모델로 1에폭당 fp연산과 memory연산에 관해서 각 코어 주파수마다 계산한다
+
+      sum(i to end) fp(i)의 연산시간
+      pytorch의 profile을 이용
+     
+      
+      
+
+   3. 성능 모델링(시간)
