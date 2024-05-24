@@ -111,12 +111,12 @@ gtx 1660 super
 
    -------------------------------------
 
-   1. 파워 모델링
+   1. 파워 예측 모델링
   
       ![image](https://github.com/jkh1447/energy-saving-gpu-optimization-for-deep-learning/assets/4592459/ea484677-0c62-4296-a189-b9e1e3a313d6)
 
       Pf(W, 와트) : 특정 주파수에서의 파워소비량
-      α, β, γ, C : 회귀로 구한다.
+      α, β, γ, C : 선형회귀로 구한다.
 
       최소 7~10개정도의 딥러닝 모델로 1에폭당 fp연산과 memory연산에 관해서 각 코어 주파수마다 계산한다
 
@@ -126,4 +126,20 @@ gtx 1660 super
       
       
 
-   3. 성능 모델링(시간)
+   3. 성능 예측 모델링(시간)
+
+      ![image](https://github.com/jkh1447/energy-saving-gpu-optimization-for-deep-learning/assets/4592459/aea6ad79-867b-425c-aede-6f24e9f3da79)
+
+      Tf = 코어주파수 f에서의 예측 실행시간
+      Tmax = 최대주파수에서의 실행시간
+      Tfdelta :
+
+      ![image](https://github.com/jkh1447/energy-saving-gpu-optimization-for-deep-learning/assets/4592459/566f11fa-92d6-47f3-a106-1c625f3e3eb8)
+
+      FPact = 최대 메모리주파수에서의 부동소수점연산
+      beta = 선형회귀로 구함.
+
+      delta f :
+      ![image](https://github.com/jkh1447/energy-saving-gpu-optimization-for-deep-learning/assets/4592459/d902d344-a676-496a-a46e-1ec19b38ccd3)
+
+      최대주파수 - 현재주파수
